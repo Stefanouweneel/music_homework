@@ -6,8 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Artist.create([{ name: "Toto" }])
-Artist.create([{ name: "Michael Jackson" }])
+toto = Artist.create ( { name: "Toto" } )
+michael_jackson = Artist.create ( { name: "Michael Jackson" } )
 
-Song.create([{ name: "Africa", artist_id: 1 }])
-Song.create([{ name: "Smooth Criminal", artist_id: 2 }])
+Song.create([{ name: "Africa", artist: toto }])
+Song.create([{ name: "Smooth Criminal", artist: michael_jackson }])
