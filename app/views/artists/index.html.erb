@@ -1,0 +1,6 @@
+<h1>Here be music!</h1>
+
+<% @songs.each do |song| %>
+<p><%= song.name %> by
+<%= song.artist.name %> </p>
+<% end %>
