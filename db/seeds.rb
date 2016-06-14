@@ -9,5 +9,5 @@
 toto = Artist.create ( { name: "Toto" } )
 michael_jackson = Artist.create ( { name: "Michael Jackson" } )
 
-Song.create([{ name: "Africa", artist: toto }])
-Song.create([{ name: "Smooth Criminal", artist: michael_jackson }])
+Song.create([{ name: "Africa", artist: toto, artist_id: 1 }])
+Song.create([{ name: "Smooth Criminal", artist: michael_jackson, artist_id: 1 }])
